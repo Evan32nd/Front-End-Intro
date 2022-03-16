@@ -92,7 +92,7 @@ button:focus,
 
 .profile {
   max-width: 700px;
-  height: 270 px;
+  height: 270px;
   margin: 0 auto;
   background-color: red;
   padding: 10px;
@@ -217,10 +217,10 @@ button:focus,
     transform: translate(446px, 48px);
   }
   to {
-    transform: translate(100px, 48px) rotate(1060deg);
+    transform: translate(100px, 48px);
   }
 }
 
 .cloud-back {
-  animation: 1s cloud-move-reverse infinite alternate ease-in-out;
+  animation: 40s cloud-move-reverse infinite alternate ease-in-out;
 }
