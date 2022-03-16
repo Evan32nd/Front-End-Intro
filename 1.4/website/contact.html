@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="images/wikipedia.ico">
+  <title>Very Cool Website</title>
+</head>
+
+<body>
+  <header>
+    <img src="http://via.placeholder.com/200x70" alt="">
+    <nav>
+      <ul role="menubar">
+        <li role="presentation">
+          <a href="index.html" role="menuitem">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem">About me</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div>
+    <h1>Contact</h1>
+    <div>
+      Evan Hunter<br>
+      2541 N 1050 W<br>
+      Clinton Utah, 84015<br>
+      Unites States<br>
+      <br>
+      Tel: <a href="tel:+8015138046" aria-label="Call me at 8015138046">801-513-8046</a><br>
+      Skype: <a href="skype:hello.careerfoundry" role="skype-id"> hello.careerfoundry</a><br>
+      Email: <a href="mailto:eqlh1998@gmail.com"  role="email-address">Eqlh1998@gmail.com</a><br>
+    </div>
+  </div>
+  <h2>
+    Contact me using the form below and I will get back to you as soon as possible!
+  </h2>
+  <form action="" method="post" id+="contact-form">
+    <label class="standard-label" for="contact-email">E-mail: </label>
+    <input type="email" id="contact-email" required>
+
+    <label class="standard-label" for="contact-tel">Telephone: </label>
+    <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+    <label class="standard-label" for="contact-message">Message: </label>
+    <textarea id="contact-message" maxlength="240" required></textarea>
+
+    <input type="submit" value="Send Message">
+  </form>
+  <br>
+  <footer>
+    <p>Find me on...</p>
+    <img src="img/github.svg" alt="Github">
+    <img src="img/twitter.svg" alt="Twitter">
+    <img src="img/linkedin.svg" alt="Linkedin">
+  </footer>
+
+  <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
